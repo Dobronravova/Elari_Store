@@ -1282,7 +1282,7 @@ input.get_sale::placeholder{
 }
 
 .footer .col-sm-3{
-	padding-right: 0
+	/*padding-right: 0*/
 }
 
 .logo_bottom{
@@ -7243,13 +7243,34 @@ img.EarDrops_seventh{
 	background: linear-gradient(90deg, #EA32A0 -14.63%, #F97129 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	font-family: Gilroy-SemiBold;
 }
-
+.nav-sales a span {
+    background: linear-gradient(90deg, #EA32A0 -14.63%, #F97129 100%);
+    -webkit-text-fill-color: white;
+    border-radius: 50%;
+    padding: 1px 4px;
+}
 .bx-mac.bx-chrome .banner_kidphone-4g-video {
   background-color: #805bc6 !important;
 }
-
-
 .bx-mac.bx-safari .banner_kidphone-4g-video {
   background-color: #805bc6 !important;
+}
+.banner_price {
+	padding-bottom: 20px;
+}
+.nav-sales-mobile .nav__link {
+	    background: transparent;
+}
+li.nav__item.nav-sales-mobile {
+	-webkit-background-clip: initial;
+    -webkit-text-fill-color: white;
+}
+.footer-menu{
+	margin-bottom: 25px;
+}
+.footer{
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
 }
