@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Inside EarDrops</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/media.css" />
+    <link rel="stylesheet" type="text/css" href="./css/modal_video.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+    <script src="./js/lightslider.js"></script> 
+    <link rel="stylesheet"  href="./css/lightslider.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/lightgallery.min.css" />            
+    <script src="./js/lightGallery.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="js/glider.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/yout.js"></script>
+    <script src="https://unpkg.com/scroll-out@2.2.3/dist/scroll-out.min.js"></script>
+</head>
+<body class="inside">
+  <div class="modal"></div>
+  <div class="shopping-cart-product-list">
+    <div class="shopping-cart-product-item">
+      <div class="shopping-cart-product-item-delete" title="Удалить товар из корзины"></div>
+      <div class="shopping-cart-product-img">
+        <img src="./img/product_in_cart1.png" alt="">
+      </div>
+      <div class="info-product">
+        <div class="name-product">Elari SmartBeat - Первая беспроводная умная колонка с Алисой от Яндекс</div>
+        <span class="price-product">5 990 ₽</span>
+      </div>
+    </div>
+    <div class="shopping-cart-product-item">
+      <div class="shopping-cart-product-item-delete" title="Удалить товар из корзины"></div>
+      <div class="shopping-cart-product-img">
+        <img src="./img/product_in_cart2.png" alt="">
+      </div>
+      <div class="info-product">
+        <div class="name-product">Elari NanoPods Sport – Водонепроницаемые беспроводные Hi-Fi наушники</div>
+        <span class="price-product">5 290 ₽</span>
+        <span class="old-price-product">6 990 ₽</span>
+      </div>
+    </div>
+    <div class="total-price-block">
+      <span class="total-text">Итого:</span> <span class="total-price">12 980 ₽</span>
+    </div>
+    <div class="shopping-cart-btns">
+      <a href="#" title="" class="big-btn-red">В корзину</a>
+      <a href="#" title="" class="big-btn-grey">Купить 1 клик</a>
+    </div>
+  </div>
+
+ <div class="container-fluid login-form-container">
+  <div class="login-form-block">
+    <div class="form-close"></div>
+
+    <div class="links-form-block">
+      <a href="#" class="login-in-link"><span id="login-in-link">Вход</span></a>
+      <a href="#" class="registration-link"><span id="registration-link">Регистрация</span></a>
+    </div>
+
+    <div class="login-form">
+      <div class="login-form-input-mail">
+        <input class="mail" type="text" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="login-form-input-password">
+        <input class="password" type="password" placeholder="Введите пароль">
+      </div>
+      <div class="btn-confirm">
+          <input type="submit" class="red_btn" name="Login" value="Войти">
+          <input type="submit" class="forgot-password" id="forgot-password-link" name="forgot" value="Забыли пароль?">
+      </div>
+      <hr class="social_btns_elem">
+      <b class="social_btns_elem">Войти с помощью соцсетей</b>
+      <div class="social_btns">
+        <a href="#" title=""><img src="./img/Google.svg" class="goo" alt=""></a>
+        <a href="#" title=""><img src="./img/Yandex.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/VK.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/FB.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/Twitter.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/OK.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="registration-form">
+      <div class="registration-form-input-name">
+        <input class="name" type="text" placeholder="Введите имя">
+      </div>
+      <div class="registration-form-input-email">
+        <input class="mail" type="email" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="registration-form-input-invent-password">
+        <input class="password" type="password" placeholder="Придумайте пароль">
+      </div>
+      <div class="registration-form-input-double-password">
+        <input class="double-password" type="password" placeholder="Подтвердите пароль">
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheckMain" checked>
+        <label class="custom-control-label" for="customCheckMain">Я согласен на обработку персональных данных</label>
+      </div>
+      <div class="btn-confirm">
+         <input type="submit" class="red_btn" name="Login" value="регистрация">
+      </div>
+      <hr class="social_btns_elem">
+      <b class="social_btns_elem">Регистрация с помощью соцсетей</b>
+      <div class="social_btns">
+        <a href="#" title=""><img src="./img/Google.svg" class="goo" alt=""></a>
+        <a href="#" title=""><img src="./img/Yandex.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/VK.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/FB.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/Twitter.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/OK.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="recover-password-form">
+      <b>Восстановление пароля</b>
+      <p>Чтобы восстановить пароль, введите ваш адрес электронной почты в форму ниже</p>
+      <div class="input-recover-password">
+        <input class="recover-password-input-email" type="email" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="btn-confirm">
+        <input type="submit" class="red_btn" name="forgot-password" value="Восстановить пароль">
+      </div>
+    </div>
+
+  </div>
+ </div>
+
+  <div class="container-fluid buy-window">
+    <a href="#" class="buy-window-close-link"><div class="buy-window-close"></div></a>
+    <div class="add-to-cart-text">Вы добавили товар в корзину<hr class="add-to-cart-text"></div>
+    <div class="buy-window-shopping-cart-product-item">
+      <div class="buy-window-shopping-cart-product-img">
+        <img src="./img/product-in-buy-window.png" alt="">
+      </div>
+      <div class="info-product-in-buy-window">
+        <div class="name-product-in-buy-window"><b>Elari KidPhone 3G Red</b><br>Детские 3G часы-телефон голосовым помощником Алисой от...</div>
+        <span class="price-product-in-buy-window">6 990 ₽</span>
+      </div>
+    </div>
+    <div class="buy-window-btns">
+      <a href="#" class="light-btn_dark-text continue-shopping" title="">Продолжить покупки</a>
+      <a href="#" class="red_btn" title="">Перейти в корзину</a>
+    </div>
+    <hr class="dop-products">
+    <div class="dop-products-block">
+      <div class="dop-products-text">С этим товаром так же покупают:</div>
+      <div class="dop-products">
+        <div class="dop-product-item">
+          <img src="./img/elari-glass.png" alt="">
+          <div class="name"><b>Защитное стекло</b> для ELARI KidPhone 3G</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/SmartBeat_32_crop.png" alt="">
+          <div class="name"><b>Elari SmartBeat Black</b>Беспроводная умная колонка с Алисой от Ян...</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/SmartSocket_LOGO_frontside_merge_rgb_m.png" alt="">
+          <div class="name"><b>Elari SmartSocket</b>Умная розетка c голосовым управлением</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/1080x1080px_EarDrops_black 1_without_background.png" alt="">
+          <div class="name"><b>Elari EarDrops Black</b> Беспроводные наушники с магнитным зарядным кей...</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="account-block">
+    <div class="out-account-block-links">
+      <ul class="out-account-block-links">
+        <li class="login"><span class="login-in">Войти</span></li>
+        <li class="registration"><span class="create-an-account">Регистрация</span></li>
+      </ul>
+    </div>
+    <div class="info-user">
+      <div class="img-user"><img src="./img/medium-user-profil-icon.jpg" alt=""></div>
+      <div class="contacts-user">
+        <div class="name-user">Алексей Александров</div>
+        <div class="mail-user">alexandrov@elari.net</div>
+      </div>
+      <hr>
+      <ul class="in-account-block-links">
+        <li class="orders"><a href="#" title="">Заказы</a></li>
+        <li class="settings"><a href="#" title="">Настройки</a></li>
+        <li class="exit"><a href="#" title="">Выйти</a></li>
+      </ul>
+    </div>
+  </div>
+
+ <div class="container-fluid header-block fixed-top">
+    <div class="row">
+      <div class="col-12">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar">
+            <div class="header">
+              <div class="menu-icon" data-behaviour="toggle-menu-icon">
+                <span class="menu-icon__bar">
+              </div>
+            </div>
+            <nav class="nav" data-element="toggle-nav">
+              <ul class="nav__list">
+                <li class="nav__item catalog_header">
+                  Каталог товаров:
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/smart-chasy/">Часы</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/bluetooth-kolonki/">Колонки</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/bluetooth-naushniki/">Наушники</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link"href="https://store.elari.net/smart-wifi/">Роутер</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/smart-house/">Умный дом</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link nav__link--plus more_link" data-behaviour="toggle-link-icon" href="#">Еще</a>
+                  <ul class="nav__sub-list" data-behaviour="toggle-sub-menu">
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 1</a>
+                    </li>
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 2</a>
+                    </li>
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 3</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="dop_links">
+                <li><a class="nav_dop_link" href="#">Новости</a></li>
+                <li><a class="nav_dop_link" href="#">Поддержка</a></li>
+                <li><a class="nav_dop_link" href="#">Партнёрам</a></li>
+              </ul>
+              <div class="info">
+                <a href="tel:+78005005600">+7 800 500 56 00</a> / <a href="tel:+74951205600">+7 495 120 56 00</a><br>
+                Москва, Проспект Вернадского, д. 29, офис 1/29<br>
+                Режим работы офиса: пн-пт с 9.30 до 19.00.
+              </div>
+              <div class="social">
+                <a class="soc_border" href="https://www.facebook.com/ElariRus" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://vk.com/elari" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://www.instagram.com/elari_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://www.youtube.com/channel/UC2x-ItXNANNiFUJkPvutV_w" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              </div>
+            </nav>
+            <a class="navbar-brand" href="https://store.elari.net/"><img src="img/logo.svg" alt="Logo ELARI" class="logo"/></a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav navbar-nav-category">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://store.elari.net/catalog/smart-chasy/">Часы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/bluetooth-kolonki/">Колонки</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/bluetooth-naushniki/">Наушники</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/smart-wifi/">Роутер</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/smart-house/">Умный дом</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-exp anded="false">Ещё</a>
+                    <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="dropdown-menu-container">
+                        <a class="dropdown-item" href="#">Категория 1</a>
+                        <a class="dropdown-item" href="#">Категория 2</a>
+                        <a class="dropdown-item" href="#">Категория 3</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="nav-links-right">
+              <form action="" method="get" class="search">
+                <i class="fa fa-search fa-search_mobile"></i>
+                <input name="search" placeholder="Что вы ищете?" type="search" class="input_search search_mobile" autocomplete="off">
+              </form>
+              <a class="nav-link nav-link-right" href="#">Поддержка</a>
+              <a class="nav-link nav-link-right" href="#">Партнёрам</a>
+            </div>
+            <div class="header-items">
+                <div class="cart-icon"><span class="amount-cart-icon">2</span></div>
+                <div class="user-icon"></div><span class="user-profil-icon"></span>
+            </div>
+        </header>
+      </div>
+    </div>
+  </div>
+
+ <div class="container-fluid container-subheader-inside EarDrops-inside-subheader">
+    <div class="row">
+      <div class="col-12">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar">
+            <div class="header">
+              <span class="header_EarDrops">EarDrops</span>
+            </div>
+            <div class="wrapper typo">
+              <div class="tabs_mobile list"><span class="placeholder">Описание</span>
+                <ul class="tabs__caption list__ul">
+                  <a class="nav-link active" href="inside_Drops.html">Описание</a>
+                  <a class="nav-link" href="inside_property.html">Характеристики</a>
+                  <a class="nav-link" href="inside_gallery.html">Галерея</a>
+                </ul>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav navbar-nav-category">
+                <li class="nav-item">
+                  <a class="nav-link active" href="inside_Drops.html">Описание</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inside_property.html">Характеристики</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inside_gallery.html">Галерея</a>
+                </li>
+                </ul>
+              </div>
+              <div class="header-inside-price">3 990 ₽</div>
+              <button class="header-inside-buy">Купить<i class="fa fa-shopping-cart"></i></button>
+            </nav>
+        </header>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid EarDrops-inside EarDrops_first">
+  <div class="row text-center">
+    <div class="col-12">
+      <div class="wow animated" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s;">
+        <div class="inside_header">ELARI EarDrops</div>
+        <div class="inside_item_descreption">Самые ЛЁГКИЕ TWS наушники с мощным звучанием, созданным совместно с Jah Khalib</div>
+        <a href="https://www.youtube.com/watch?v=Hjm124cSes8" data-youtube-id="Hjm124cSes8" class="video-banner js-trigger-video-modal"><div><img src="./img/Inside_play.svg" alt="" class="video-banner-icon-play"></div></a>
+        <section class="video-modal">
+          <div id="video-modal-content" class="video-modal-content">
+            <iframe id="youtube" width="100%" height="100%" frameborder="0" allowfullscreen="" src=""></iframe>
+              <a href="#" class="close-video-modal">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="24" height="24">
+                <g id="icon-x-close">
+                  <path fill="#ffffff" d="M30.3448276,31.4576271 C29.9059965,31.4572473 29.4852797,31.2855701 29.1751724,30.980339 L0.485517241,2.77694915 C-0.122171278,2.13584324 -0.104240278,1.13679247 0.52607603,0.517159487 C1.15639234,-0.102473494 2.17266813,-0.120100579 2.82482759,0.477288136 L31.5144828,28.680678 C31.9872448,29.1460053 32.1285698,29.8453523 31.8726333,30.4529866 C31.6166968,31.0606209 31.0138299,31.4570487 30.3448276,31.4576271 Z" id="Shape"></path>
+                  <path fill="#ffffff" d="M1.65517241,31.4576271 C0.986170142,31.4570487 0.383303157,31.0606209 0.127366673,30.4529866 C-0.12856981,29.8453523 0.0127551942,29.1460053 0.485517241,28.680678 L29.1751724,0.477288136 C29.8273319,-0.120100579 30.8436077,-0.102473494 31.473924,0.517159487 C32.1042403,1.13679247 32.1221713,2.13584324 31.5144828,2.77694915 L2.82482759,30.980339 C2.51472031,31.2855701 2.09400353,31.4572473 1.65517241,31.4576271 Z" id="Shape"></path>
+                </g>
+                </svg>
+              </a>
+            </div>
+            <div class="overlay"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid EarDrops-inside video-wrapper EarDrops_second">
+  <div class="row text-center">
+    <div class="col-12">
+      <div class="inside_header">Легко наслаждаться</div>
+      <div class="inside_item_descreption">Звук новых EarDrops создан Jah Khalib.<br>Беспроводные наушники с Bluetooth 5.0, магнитным кейсом с индикатором уровня заряда и поддержкой стерео звонков.</div>
+      <!-- <div class="inside_bottom_img"><img src="./img/EarDrops_second.png" alt="" class="max70vh"></div> -->
+      <video class="video ap fadeIn wow" data-wow-duration=".5s" data-wow-delay=".1s" muted>
+        <source src="Ear_drops_vilet_for_Site_01.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid EarDrops-inside EarDrops_third">
+  <div class="row text-center">
+     <div class="col-12">
+      <div class="inside_header">Легко общаться</div>
+      <div class="inside_item_descreption">
+        Быстрый и мощный модуль Bluetooth 5.0 обеспечивает более стабильное соединение со смартфоном и увеличенную дальность действия сигнала. Наушники поддерживают и режим стерео гарнитуры: во время телефонных разговоров собеседника будет слышно в обоих наушниках.
+      </div>
+      <div class="EarDrops_cols">
+        <div class="EarDrops_col">
+          <img src="./img/Bluetooth5.svg" alt="" class="">
+          <div>Мощный модуль<br>Bluetooth 5.0</div>
+        </div>
+        <div class="EarDrops_col">
+          <span class="big_font">10</span><span class="small_font">м</span>
+          <div>Действие сигнала<br>до 10м.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid EarDrops-inside EarDrops_fourth">
+  <div class="row text-center">
+    <div class="col-12">
+      <div class="inside_header">Легко носить</div>
+      <div class="inside_item_descreption">
+        EarDrops созданы с учетом анатомии ушной раковины, отлично фиксируются и, благодаря покрытию soft-touch на внутренней стороне наушников, прекрасно подходят для длительного ношения.
+      </div>
+      <div class="inside_bottom_img"><img src="./img/EarDrops_fourth.png" alt="" class="max100"></div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid EarDrops-inside EarDrops_fifth text-center">
+  <div class="row text-center">
+    <div class="col-12 no-padding">
+      <div class="inside_bottom_img"><img src="./img/EarDrops_fifth.png" alt="" class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid EarDrops-inside EarDrops_sixth">
+  <div class="row text-center">
+      <div class="col-12 no-padding">
+      <div class="inside_header">Бесконечно приятно слушать</div>
+      <div class="inside_item_descreption">Созданные из высокотехнологичных материалов ELARI EarDrops обеспечат Вам наслаждение при прослушивании музыки самых разных стилей и направлений. В лёгкой каплевидной конструкции заключена высокая производительность, стабильное соединение и увеличенное время работы. ELARI EarDrops действительно впечатляют как внутри, так и снаружи.</div>
+      <div class="inside_bottom_img"><img src="./img/EarDrops_sixth.png" alt="" class="max100"></div>
+    </div>
+  </div>
+</div>
+
+<!--  <div class="swiper-container"> <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="inside_header">Музыка</div>
+    </div>
+    <div class="swiper-slide">
+      <div class="inside_header">Музыка</div>
+      <div class="EarDrops_seventh_left_block"><img src="./img/EarDrops_play-pause.svg" alt="" class=""><br>Воспроизведение / Пауза</div>
+      <div class="EarDrops_seventh_center_block"></div>
+      <div class="EarDrops_seventh_right_block"><img src="./img/EarDrops_scroll_1.png" alt="" class=""></div>
+    </div>
+    <div class="swiper-slide">
+      <div class="inside_header">Телефонные вызовы</div>
+      <div class="EarDrops_seventh_left_block"><img src="./img/EarDrops_start-stop_call.svg" alt="" class=""><br>Принять / завершить вызов<br>Завершить текущий /принять новый</div>
+      <div class="EarDrops_seventh_center_block"></div>
+      <div class="EarDrops_seventh_right_block"><img src="./img/EarDrops_scroll_1.png" alt="" class=""></div>
+    </div>
+    <div class="swiper-slide">
+      <div class="inside_header">Телефонные вызовы</div>
+      <div class="EarDrops_seventh_left_block"><img src="./img/EarDrops_reconnection.svg" alt="" class=""><br>Переключение между гарнитурой<br>и телефоном во время разговора</div>
+      <div class="EarDrops_seventh_center_block"></div>
+      <div class="EarDrops_seventh_right_block"><img src="./img/EarDrops_scroll_2.png" alt="" class=""></div>
+    </div>
+    <div class="swiper-slide">Slide 4</div>
+  </div>
+</div> -->
+
+  <div class="container-fluid scroll-container">
+  <section class="scroll-sequence__container apple-container">
+    <div class="scroll-sequence apple-sequence">
+      <div class="container-fluid EarDrops-inside EarDrops_seventh">
+        <div class="row text-center">
+          <div class="col-12 no-padding">
+            <div class="inside_header">Легко управлять</div>
+            <div class="inside_item_descreption">Встроенные кнопки управления наушников имеют широкий функционал и выполняют множество действий без необходимости доставать Ваш смартфон</div>
+          </div>
+        </div>
+      </div>
+      <img src="./img/EarDrops_seventh.png" alt="" class="max100 EarDrops_seventh">
+      <div class="EarDrops_seventh_right_img"><span class="EarDrops_seventh_right_big">1</span> <span class="EarDrops_seventh_right_small">быстрое нажатие</span></div>
+    </div>
+    <div class="scroll-sequence__content">
+      <div class="speak">
+          <div class="inside_header">Музыка</div>
+          <div class="EarDrops_seventh_left_block" id="EarDrops_play-pause"><img src="./img/EarDrops_play-pause.svg" alt="" class=""><br>Воспроизведение / Пауза</div>
+          <div class="EarDrops_seventh_center_block"></div>
+          <div class="EarDrops_seventh_right_block"></div>
+      </div>
+      <div class="speak">
+          <div class="inside_header">Телефонные вызовы</div>
+          <div class="EarDrops_seventh_left_block" id="EarDrops_start-stop_call"><img src="./img/EarDrops_start-stop_call.svg" alt="" class=""><br>Принять / завершить вызов<br>Завершить текущий /принять новый</div>
+          <div class="EarDrops_seventh_center_block"></div>
+          <div class="EarDrops_seventh_right_block"></div>
+      </div>
+      <div class="speak">
+          <div class="inside_header">Телефонные вызовы</div>
+          <div class="EarDrops_seventh_left_block" id="EarDrops_reconnection"><img src="./img/EarDrops_reconnection.svg" alt="" class=""><br>Переключение между гарнитурой<br>и телефоном во время разговора</div>
+          <div class="EarDrops_seventh_center_block"></div>
+          <div class="EarDrops_seventh_right_block"></div>
+      </div>
+      <div class="speak">
+          <div class="inside_header">Телефонные вызовы</div>
+          <div class="EarDrops_seventh_left_block" id="EarDrops_switch"><img src="./img/EarDrops_switch.svg" alt="" class=""><br>Поставить вызов на удержание и принять новый<br>Переключение между вызовами</div>
+          <div class="EarDrops_seventh_center_block"></div>
+          <div class="EarDrops_seventh_right_block"></div>
+      </div>
+      <div class="speak">
+          <div class="inside_header">Голосовой ассистент</div>
+          <div class="EarDrops_seventh_left_block" id="EarDrops_ask"><img src="./img/EarDrops_switch.svg" alt="" class=""><br>Спросите Siri или Google Assistant о погоде, пробках и новостях, ищите информацию в Интернете, совершайте вызовы, устанавливайте напоминания или будильник.</div>
+          <div class="EarDrops_seventh_center_block"></div>
+          <div class="EarDrops_seventh_right_block"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="container-fluid EarDrops-inside EarDrops_eighth">
+  <div class="row text-center">
+    <div class="col-12 no-padding">
+      <div class="inside_bottom_img"><img src="./img/EarDrops_eighth.jpg" alt="" class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid EarDrops-inside EarDrops_ninth">
+  <div class="row text-center">
+    <div class="col-12 no-padding">
+      <div class="inside_header">Легко зарядить на целый день</div>
+      <div class="inside_item_descreption">EarDrops звучат до 4 часов в режиме воспроизведения или разговора. Магнитный зарядный кейс имеет индикатор уровня заряда и начинает заряд автоматически, когда наушники помещаются внутрь. При этом кейс значительно увеличивает автономность, обеспечивая наушникам до 4 циклов полного заряда и быструю зарядку: за 20 минут EarDrops набирают заряд, достаточный для 1 часа работы.</div>
+      <div class="EarDrops_cols">
+        <div class="EarDrops_col">
+          <span class="big_font">4</span><span class="small_font">ч</span>
+          <div>Заряд наушников</div>
+        </div>
+        <div class="EarDrops_col">
+          <span class="big_font">24</span><span class="small_font">ч</span>
+          <div>Почти сутки автономной работы с магнитным зарядным кейсом</div>
+        </div>
+        <div class="EarDrops_col">
+          <span class="big_font">4</span>
+          <div>Полных цикла заряда в кейсе</div>
+        </div>
+      </div>
+      <video id="video" loop muted autoplay webkit-playsinline playsinlin>
+        <source src="EarDrops_Site_Lamps.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid EarDrops-inside EarDrops_tenth">
+  <div class="row text-center">
+    <div class="col-12 no-padding">
+      <div class="inside_header">Легко соединить</div>
+      <div class="inside_item_descreption">ED все делают сами, вам надо только достать их из кейса.</div>
+      <div class="EarDrops_cols">
+        <div class="EarDrops_col">
+          <span class="big_font">ON</span>
+          <div>Автовключение</div>
+        </div>
+        <div class="EarDrops_col">
+          <span class="big_font">OFF</span>
+          <div>Актовыключение</div>
+        </div>
+        <div class="EarDrops_col">
+          <img src="./img/auto_connection.svg" alt="" class="auto_connection">
+          <div>Автосоединение</div>
+        </div>
+      </div>
+      <div class="inside_bottom_img"><img src="./img/EarDrops_tenth.jpg" alt="" class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div class="mobile-fixed-price fixed-bottom"><div class="fixed-price">3 990 ₽</div><button class="header-inside-buy">Купить<i class="fa fa-shopping-cart"></i></button></div>
+
+<div class="container dop-products-inside">
+  <div class="dop-products-block">
+      <div class="dop-products-text">Рекомендуем также приобрести:</div>
+      <div class="dop-products">
+        <div class="dop-product-item">
+          <img src="./img/elari-glass.png" alt="">
+          <div class="name"><b>Защитное стекло</b> для ELARI KidPhone 3G</div>
+          <div class="price">6 990 ₽</div>
+          <div class="btns dark-btns"><span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span></div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/SmartBeat_32_crop.png" alt="">
+          <div class="name"><b>Elari SmartBeat Black</b>Беспроводная умная колонка с Алисой от Ян...</div>
+          <div class="price">6 990 ₽</div>
+          <div class="btns dark-btns"><span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span></div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/SmartSocket_LOGO_frontside_merge_rgb_m.png" alt="">
+          <div class="name"><b>Elari SmartSocket</b>Умная розетка c голосовым управлением</div>
+          <div class="price">6 990 ₽</div>
+          <div class="btns dark-btns"><span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span></div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/1080x1080px_EarDrops_black 1_without_background.png" alt="">
+          <div class="name"><b>Elari EarDrops Black</b> Беспроводные наушники с магнитным зарядным кей...</div>
+          <div class="price">6 990 ₽</div>
+          <div class="btns dark-btns"><span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span></div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/elari-glass.png" alt="">
+          <div class="name"><b>Защитное стекло</b> для ELARI KidPhone 3G</div>
+          <div class="price">6 990 ₽</div>
+          <div class="btns dark-btns"><span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="container-fluid get_sale_block">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-6  get_sale_info">
+          <h2>ХОТИТЕ ЕЩЁ СКИДКУ?</h2>
+          <div class="descreption">Сэкономьте 10% на первом заказе в Elari Store и узнавайте первыми об акциях и спецпредложениях</div>
+          <div class="form">
+            <input class="get_sale" type="" name="" placeholder="Введите ваш email адрес">
+            <button class="get_sale">ПОЛУЧИТЬ СКИДКУ</button>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheckSale" checked>
+              <label class="custom-control-label" for="customCheckSale">Я согласен на обработку персональных данных</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-6 get_sale_bg">
+        </div>
+      </div>
+    </div>
+
+  <div class="container-fluid">
+    <div class="footer row">
+        <div class="col-12 mobile_logo_bottom"><a href="https://store.elari.net/" title=""><img src="./img/logo_bottom.svg" alt="Elari" class="img_mobile_logo_bottom"></a></div>
+        <div class="col-12 col-sm-8 info-block-footer">
+          <div class="logo_bottom"><a href="https://store.elari.net/" title=""><img src="./img/logo_bottom.svg" alt="Elari" class="logo_bottom"></a></div>
+          <div class="info">
+            <hr>
+            <a href="tel:+78005005600">+7 800 500 56 00</a> / <a href="tel:+74951205600">+7 495 120 56 00</a><br>
+            Москва, Проспект Вернадского, д. 29, офис 1/29<br>
+            Режим работы офиса: пн-пт с 9.30 до 19.00.
+          </div>
+          <div class="social">
+            <a class="soc_border" href="https://www.facebook.com/ElariRus" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://vk.com/elari" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://www.instagram.com/elari_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://www.youtube.com/channel/UC2x-ItXNANNiFUJkPvutV_w" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 footer-menu align-self-end">
+          <a href="https://elari.net/about-elari/" title="О компании Elari">О компании</a>
+          <a href="https://store.elari.net/contacts/" title="Контактная информация">Контакты</a>
+          <a href="https://store.elari.net/conditions/" title="Условия продажи">Условия продажи</a>
+          <a href="https://store.elari.net/catalog/sale/" title="Акции">Акции</a>
+        </div>
+        <div class="col-6  col-sm-1 footer-menu align-self-end">
+          <a href="https://store.elari.net/conditions/" title="Гарантия">Гарантия</a>
+          <a href="https://store.elari.net/conditions/" title="Доставка">Доставка</a>
+          <a href="https://store.elari.net/news/" title="Новости">Новости</a>
+          <a href="https://elari.net/partners/" title="Партнерам">Партнерам</a>
+        </div>
+    </div>
+  </div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main_v1.js"></script>
+<script src="js/script.js" type="text/javascript" async defer></script>
+</body>
+</html>

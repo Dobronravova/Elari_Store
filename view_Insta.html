@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Instagram</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="modal"></div>
+  <div class="shopping-cart-product-list">
+    <div class="shopping-cart-product-item">
+      <div class="shopping-cart-product-item-delete" title="Удалить товар из корзины"></div>
+      <div class="shopping-cart-product-img">
+        <img src="./img/product_in_cart1.png" alt="">
+      </div>
+      <div class="info-product">
+        <div class="name-product">Elari SmartBeat - Первая беспроводная умная колонка с Алисой от Яндекс</div>
+        <span class="price-product">5 990 ₽</span>
+      </div>
+    </div>
+    <hr>
+    <div class="shopping-cart-product-item">
+      <div class="shopping-cart-product-item-delete" title="Удалить товар из корзины"></div>
+      <div class="shopping-cart-product-img">
+        <img src="./img/product_in_cart2.png" alt="">
+      </div>
+      <div class="info-product">
+        <div class="name-product">Elari NanoPods Sport – Водонепроницаемые беспроводные Hi-Fi наушники</div>
+        <span class="price-product">5 290 ₽</span>
+        <span class="old-price-product">6 990 ₽</span>
+      </div>
+    </div>
+    <div class="total-price-block">
+      <span class="total-text">Итого:</span> <span class="total-price">12 980 ₽</span>
+    </div>
+    <div class="shopping-cart-btns">
+      <a href="#" title="" class="big-btn-red">В корзину</a>
+      <a href="#" title="" class="big-btn-grey">Купить 1 клик</a>
+    </div>
+  </div>
+
+ <div class="container-fluid login-form-container">
+  <div class="login-form-block">
+    <div class="form-close"></div>
+
+    <div class="links-form-block">
+      <a href="#" class="login-in-link"><span id="login-in-link">Вход</span></a>
+      <a href="#" class="registration-link"><span id="registration-link">Регистрация</span></a>
+    </div>
+
+    <div class="login-form">
+      <div class="login-form-input-mail">
+        <input class="mail" type="text" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="login-form-input-password">
+        <input class="password" type="password" placeholder="Введите пароль">
+      </div>
+      <div class="btn-confirm">
+        <button class="red_btn">войти</button>
+        <a href="#" class="forgot-password"><span id="forgot-password-link">Забыли пароль?</span></a>
+      </div>
+      <hr class="social_btns_elem">
+      <b class="social_btns_elem">Войти с помощью соцсетей</b>
+      <div class="social_btns">
+        <a href="#" title=""><img src="./img/Google.svg" class="goo" alt=""></a>
+        <a href="#" title=""><img src="./img/Yandex.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/VK.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/FB.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/Twitter.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/OK.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="registration-form">
+      <div class="registration-form-input-name">
+        <input class="name" type="text" placeholder="Введите имя">
+      </div>
+      <div class="registration-form-input-email">
+        <input class="mail" type="email" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="registration-form-input-invent-password">
+        <input class="password" type="password" placeholder="Придумайте пароль">
+      </div>
+      <div class="registration-form-input-double-password">
+        <input class="double-password" type="password" placeholder="Подтвердите пароль">
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheckMain" checked>
+        <label class="custom-control-label" for="customCheckMain">Я согласен на обработку персональных данных</label>
+      </div>
+      <div class="btn-confirm">
+        <button class="red_btn">регистрация</button>
+      </div>
+      <hr class="social_btns_elem">
+      <b class="social_btns_elem">Регистрация с помощью соцсетей</b>
+      <div class="social_btns">
+        <a href="#" title=""><img src="./img/Google.svg" class="goo" alt=""></a>
+        <a href="#" title=""><img src="./img/Yandex.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/VK.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/FB.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/Twitter.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/OK.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="recover-password-form">
+      <b>Восстановление пароля</b>
+      <p>Чтобы восстановить пароль, введите ваш адрес электронной почты в форму ниже</p>
+      <div class="input-recover-password">
+        <input class="recover-password-input-email" type="email" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="btn-confirm">
+          <button class="red_btn">Восстановить пароль</button>
+      </div>
+    </div>
+
+  </div>
+ </div>
+
+  <div class="container-fluid buy-window">
+    <a href="#" class="buy-window-close-link"><div class="buy-window-close"></div></a>
+    <div class="add-to-cart-text">Вы добавили товар в корзину<hr class="add-to-cart-text"></div>
+    <div class="buy-window-shopping-cart-product-item">
+      <div class="buy-window-shopping-cart-product-img">
+        <img src="./img/product-in-buy-window.png" alt="">
+      </div>
+      <div class="info-product-in-buy-window">
+        <div class="name-product-in-buy-window"><b>Elari KidPhone 3G Red</b><br>Детские 3G часы-телефон голосовым помощником Алисой от...</div>
+        <span class="price-product-in-buy-window">6 990 ₽</span>
+      </div>
+    </div>
+    <div class="buy-window-btns">
+      <a href="#" class="light-btn_dark-text" title="">Продолжить покупки</a>
+      <a href="#" class="red_btn" title="">Перейти в корзину</a>
+    </div>
+    <hr class="dop-products">
+    <div class="dop-products-block">
+      <div class="dop-products-text">С этим товаром так же покупают:</div>
+      <div class="dop-products">
+        <div class="dop-product-item">
+          <img src="./img/elari-glass.png" alt="">
+          <div class="name"><b>Защитное стекло</b> для ELARI KidPhone 3G</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/SmartBeat_32_crop.png" alt="">
+          <div class="name"><b>Elari SmartBeat Black</b>Беспроводная умная колонка с Алисой от Ян...</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/SmartSocket_LOGO_frontside_merge_rgb_m.png" alt="">
+          <div class="name"><b>Elari SmartSocket</b>Умная розетка c голосовым управлением</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/1080x1080px_EarDrops black 1_without background.png" alt="">
+          <div class="name"><b>Elari EarDrops Black</b> Беспроводные наушники с магнитным зарядным кей...</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="account-block">
+    <div class="out-account-block-links">
+      <ul class="out-account-block-links">
+        <li class="login"><span class="login-in">Войти</span></li>
+        <li class="registration"><span class="create-an-account">Регистрация</span></li>
+      </ul>
+    </div>
+    <div class="info-user">
+      <div class="img-user"><img src="./img/medium-user-profil-icon.jpg" alt=""></div>
+      <div class="contacts-user">
+        <div class="name-user">Алексей Александров</div>
+        <div class="mail-user">alexandrov@elari.net</div>
+      </div>
+      <hr>
+      <ul class="in-account-block-links">
+        <li class="orders"><a href="#" title="">Заказы</a></li>
+        <li class="settings"><a href="#" title="">Настройки</a></li>
+        <li class="exit"><a href="#" title="">Выйти</a></li>
+      </ul>
+    </div>
+  </div>
+     <div class="container-fluid header-block fixed-top">
+    <div class="row">
+      <div class="col-12">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar">
+            <div class="header">
+              <div class="menu-icon" data-behaviour="toggle-menu-icon">
+                <span class="menu-icon__bar">
+              </div>
+            </div>
+            <nav class="nav" data-element="toggle-nav">
+              <ul class="nav__list">
+                <li class="nav__item catalog_header">
+                  Каталог товаров:
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/smart-chasy/">Часы</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/bluetooth-kolonki/">Колонки</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/bluetooth-naushniki/">Наушники</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link"href="https://store.elari.net/smart-wifi/">Роутер</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/smart-house/">Умный дом</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link nav__link--plus more_link" data-behaviour="toggle-link-icon" href="#">Еще</a>
+                  <ul class="nav__sub-list" data-behaviour="toggle-sub-menu">
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 1</a>
+                    </li>
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 2</a>
+                    </li>
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 3</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="dop_links">
+                <li><a class="nav_dop_link" href="#">Новости</a></li>
+                <li><a class="nav_dop_link" href="#">Поддержка</a></li>
+                <li><a class="nav_dop_link" href="#">Партнёрская программа</a></li>
+              </ul>
+              <div class="info">
+                <a href="tel:+78005005600">+7 800 500 56 00</a> / <a href="tel:+74951205600">+7 495 120 56 00</a><br>
+                Москва, Проспект Вернадского, д. 29, офис 1/29<br>
+                Режим работы офиса: пн-пт с 9.30 до 19.00.
+              </div>
+              <div class="social">
+                <a class="soc_border" href="https://www.facebook.com/ElariRus" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://vk.com/elari" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://www.instagram.com/elari_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://www.youtube.com/channel/UC2x-ItXNANNiFUJkPvutV_w" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              </div>
+            </nav>
+            <a class="navbar-brand" href="https://store.elari.net/"><img src="img/logo.svg" alt="Logo ELARI" class="logo"/></a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav navbar-nav-category">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://store.elari.net/catalog/smart-chasy/">Часы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/bluetooth-kolonki/">Колонки</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/bluetooth-naushniki/">Наушники</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/smart-wifi/">Роутер</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/smart-house/">Умный дом</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-exp anded="false">Ещё</a>
+                    <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="dropdown-menu-container">
+                        <a class="dropdown-item" href="#">Категория 1</a>
+                        <a class="dropdown-item" href="#">Категория 2</a>
+                        <a class="dropdown-item" href="#">Категория 3</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="nav-links-right">
+              <form action="" method="get" class="search">
+                <i class="fa fa-search fa-search_mobile"></i>
+                <input name="search" placeholder="Что вы ищете?" type="search" class="input_search search_mobile" autocomplete="off">
+              </form>
+              <a class="nav-link nav-link-right" href="#">Поддержка</a>
+              <a class="nav-link nav-link-right" href="#">Партнёрам</a>
+            </div>
+            <div class="header-items">
+                <div class="cart-icon"><span class="amount-cart-icon">2</span></div>
+                <div class="user-icon"></div><span class="user-profil-icon"></span>
+            </div>
+        </header>
+      </div>
+    </div>
+  </div>
+<div class="container-fluid container-subheader-new">
+  <div class="subheader-block">
+    <div class="breadcrumbs"><i class="fa fa-chevron-left"></i><a href="#" class="category">Вернуться</a></div>
+    <div class="subheader-icons">
+      <img src="./img/share.svg" alt="" class="share">
+    </div>
+  </div>
+</div>
+<div class="container-news_list view_container">
+  <div class="view">
+    <div class="new-header">Live-style обзор NanoPods от Viki</div>
+    <div class="view_info">
+      <div class="platform">Instagram</div>
+      <div class="new_date">2 июля 2019</div>
+      <div class="views"><img src="./img/eye.svg" alt="" class="">571</div>
+    </div>   
+  </div>
+</div>
+<div class="container-news_list view_container">
+  <div class="view-bottom-block insta">
+    <div class="insta-post">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BkCaugTAt1g/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:700px; min-width:280px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BkCaugTAt1g/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> Посмотреть эту публикацию в Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BkCaugTAt1g/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Друзья, Ура! 😇 У меня появились Elari #nanopods от компании @elari_russia 👍 Наушники, о которых я так долго мечтала и которые теперь всегда со мной!😊 Ребята - это действительно новый уровень комфорта для любителей хорошего звука. ☝ Это беспроводные hi-fi наушники, с микрофоном и магнитным зарядным кейсом. Наушники настолько гармонично &#34;сливаются&#34; с вами, что через несколько минут вы просто забываете о том, что вы их одели ❤ Они созданы с учетом анатомии ушной раковины!☝ Качество звука - это отедльная тема 💛 Мне, как человеку, который ежедневно прослушивает массу песен, просто необходимо иметь действительно хорошие &#34;мобильные&#34; наушники, которые улавливают все нюансы треков и не &#34;приукрашивают&#34; звук, как многие гарнитуры ❤ #nanopods полностью соответствуют всем моим ожиданиям =)🌹 Глубокие басы, насыщенные средние и чистые высокие частоты не оставят равнодушным никого, при прослушивании ваших любимых альбомов 😊 Всем советую Elari #nanopods, наушники-гарнитура, которая действительно Вас удивит !☝</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Публикация от <a href="https://www.instagram.com/impala_beats/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Impala Beats 🚀</a> (@impala_beats) <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-06-15T07:58:27+00:00">15 Июн 2018 в 12:58 PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+      </div>
+      <div class="container-right">
+        <div class="new-right-block">
+          <div class="right-header-text">Другие Instagram-обзоры</div>
+          <div class="right-new_prev">
+            <a class="right-new_prev" href="#"><img src="img/insta_screen1.jpg" alt="" class="new_prev"/></a>
+            <div class="new_prev_header"><a href="#" class="right-new_prev">Обзор ELARI SmartWiFi от Wylsacom</a></div>
+            <div class="new_date">2 июля 2019</div><div class="views"><img src="./img/eye.svg" alt="" class="">571</div>
+          </div>
+          <div class="clear"></div>
+          <div class="right-new_prev">
+            <a class="right-new_prev" href="#"><img src="img/insta_screen2.jpg" alt="" class="new_prev"/>
+            <div class="new_prev_header"><a href="#" class="right-new_prev">Первые в мире детские часы-телефон с Алисой</a></div>
+            <div class="new_date">2 июля 2019</div><div class="views"><img src="./img/eye.svg" alt="" class="">571</div>
+          </div>
+          <div class="clear"></div>
+          <div class="right-new_prev">
+            <a class="right-new_prev" href="#"><img src="img/insta_screen3.jpg" alt="" class="new_prev"/></a>
+            <div class="new_prev_header"><a href="#" class="right-new_prev">Обзор ELARI SmartWiFi от Wylsacom</a></div>
+            <div class="new_date">2 июля 2019</div><div class="views"><img src="./img/eye.svg" alt="" class="">571</div>
+          </div>
+          <div class="clear"></div>
+          <a href="#" class="light-btn_dark-text">Смотреть все</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid get_sale_block">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-6  get_sale_info">
+          <h2>ХОТИТЕ ЕЩЁ СКИДКУ?</h2>
+          <div class="descreption">Сэкономьте 10% на первом заказе в Elari Store и узнавайте первыми об акциях и спецпредложениях</div>
+          <div class="form">
+            <input class="get_sale" type="" name="" placeholder="Введите ваш email адрес">
+            <button class="get_sale">ПОЛУЧИТЬ СКИДКУ</button>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheckSale" checked>
+              <label class="custom-control-label" for="customCheckSale">Я согласен на обработку персональных данных</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-6 get_sale_bg">
+        </div>
+      </div>
+    </div>
+
+  <div class="container-fluid">
+    <div class="footer">
+      <div class="row">
+        <div class="col-12 mobile_logo_bottom"><a href="https://store.elari.net/" title=""><img src="./img/logo_bottom.svg" alt="Elari" class="img_mobile_logo_bottom"></a></div>
+        <div class="col-12 col-sm-7 info-block-footer">
+          <div class="logo_bottom"><a href="https://store.elari.net/" title=""><img src="./img/logo_bottom.svg" alt="Elari" class="logo_bottom"></a></div>
+          <div class="info">
+            <hr>
+            <a href="tel:+78005005600">+7 800 500 56 00</a> / <a href="tel:+74951205600">+7 495 120 56 00</a><br>
+            Москва, Проспект Вернадского, д. 29, офис 1/29<br>
+            Режим работы офиса: пн-пт с 9.30 до 19.00.
+          </div>
+          <div class="social">
+            <a class="soc_border" href="https://www.facebook.com/ElariRus" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://vk.com/elari" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://www.instagram.com/elari_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://www.youtube.com/channel/UC2x-ItXNANNiFUJkPvutV_w" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 footer-menu align-self-end">
+          <a href="https://elari.net/about-elari/" title="О компании Elari">О компании</a>
+          <a href="https://store.elari.net/contacts/" title="Контактная информация">Контакты</a>
+          <a href="https://store.elari.net/conditions/" title="Условия продажи">Условия продажи</a>
+          <a href="https://store.elari.net/catalog/sale/" title="Акции">Акции</a>
+        </div>
+        <div class="col-6  col-sm-2 footer-menu align-self-end">
+          <a href="https://store.elari.net/conditions/" title="Гарантия">Гарантия</a>
+          <a href="https://store.elari.net/conditions/" title="Доставка">Доставка</a>
+          <a href="https://store.elari.net/news/" title="Новости">Новости</a>
+          <a href="https://elari.net/partners/" title="Партнерам">Партнерам</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+</body>
+</html>

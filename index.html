@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>New Store Index</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">    
+    <link rel="stylesheet" type="text/css" href="css/glider.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/glider.js"></script>
+    <script type="text/javascript">
+     $(function () {
+      $('.owl-carousel-slider').owlCarousel({
+        margin:0,
+        nav:true,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3500,
+        slideSpeed : 1900,
+        singleItem: true,
+        smartSpeed:650,
+        autoplayHoverPause:true,
+        mouseDrag: true,
+        navText:["<div class='prev-slide'></div>","<div class='next-slide'></div>"],
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:1
+          },
+          1000:{
+            items:1
+          }
+        }
+    });
+  });
+</script>
+</head>
+<body class="index">
+  <div class="modal"></div>
+  <div class="shopping-cart-product-list">
+    <div class="shopping-cart-product-item">
+      <div class="shopping-cart-product-item-delete" title="Удалить товар из корзины"></div>
+      <div class="shopping-cart-product-img">
+        <img src="./img/product_in_cart1.png" alt="">
+      </div>
+      <div class="info-product">
+        <div class="name-product">Elari SmartBeat - Первая беспроводная умная колонка с Алисой от Яндекс</div>
+        <span class="price-product">5 990 ₽</span>
+      </div>
+    </div>
+    <div class="shopping-cart-product-item">
+      <div class="shopping-cart-product-item-delete" title="Удалить товар из корзины"></div>
+      <div class="shopping-cart-product-img">
+        <img src="./img/product_in_cart2.png" alt="">
+      </div>
+      <div class="info-product">
+        <div class="name-product">Elari NanoPods Sport – Водонепроницаемые беспроводные Hi-Fi наушники</div>
+        <span class="price-product">5 290 ₽</span>
+        <span class="old-price-product">6 990 ₽</span>
+      </div>
+    </div>
+    <div class="total-price-block">
+      <span class="total-text">Итого:</span> <span class="total-price">12 980 ₽</span>
+    </div>
+    <div class="shopping-cart-btns">
+      <a href="#" title="" class="big-btn-red">В корзину</a>
+      <a href="#" title="" class="big-btn-grey">Купить 1 клик</a>
+    </div>
+  </div>
+
+ <div class="container-fluid login-form-container">
+  <div class="login-form-block">
+    <div class="form-close"></div>
+
+    <div class="links-form-block">
+      <a href="#" class="login-in-link"><span id="login-in-link">Вход</span></a>
+      <a href="#" class="registration-link"><span id="registration-link">Регистрация</span></a>
+    </div>
+
+    <div class="login-form">
+      <div class="login-form-input-mail">
+        <input class="mail" type="text" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="login-form-input-password">
+        <input class="password" type="password" placeholder="Введите пароль">
+      </div>
+      <div class="btn-confirm">
+          <input type="submit" class="red_btn" name="Login" value="Войти">
+          <input type="submit" class="forgot-password" id="forgot-password-link" name="forgot" value="Забыли пароль?">
+      </div>
+      <hr class="social_btns_elem">
+      <b class="social_btns_elem">Войти с помощью соцсетей</b>
+      <div class="social_btns">
+        <a href="#" title=""><img src="./img/Google.svg" class="goo" alt=""></a>
+        <a href="#" title=""><img src="./img/Yandex.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/VK.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/FB.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/Twitter.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/OK.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="registration-form">
+      <div class="registration-form-input-name">
+        <input class="name" type="text" placeholder="Введите имя">
+      </div>
+      <div class="registration-form-input-email">
+        <input class="mail" type="email" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="registration-form-input-invent-password">
+        <input class="password" type="password" placeholder="Придумайте пароль">
+      </div>
+      <div class="registration-form-input-double-password">
+        <input class="double-password" type="password" placeholder="Подтвердите пароль">
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheckMain" checked>
+        <label class="custom-control-label" for="customCheckMain">Я согласен на обработку персональных данных</label>
+      </div>
+      <div class="btn-confirm">
+         <input type="submit" class="red_btn" name="Login" value="регистрация">
+      </div>
+      <hr class="social_btns_elem">
+      <b class="social_btns_elem">Регистрация с помощью соцсетей</b>
+      <div class="social_btns">
+        <a href="#" title=""><img src="./img/Google.svg" class="goo" alt=""></a>
+        <a href="#" title=""><img src="./img/Yandex.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/VK.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/FB.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/Twitter.svg" alt=""></a>
+        <a href="#" title=""><img src="./img/OK.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="recover-password-form">
+      <b>Восстановление пароля</b>
+      <p>Чтобы восстановить пароль, введите ваш адрес электронной почты в форму ниже</p>
+      <div class="input-recover-password">
+        <input class="recover-password-input-email" type="email" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="btn-confirm">
+        <input type="submit" class="red_btn" name="forgot-password" value="Восстановить пароль">
+      </div>
+    </div>
+
+  </div>
+ </div>
+
+  <div class="container-fluid buy-window">
+    <a href="#" class="buy-window-close-link"><div class="buy-window-close"></div></a>
+    <div class="add-to-cart-text">Вы добавили товар в корзину<hr class="add-to-cart-text"></div>
+    <div class="buy-window-shopping-cart-product-item">
+      <div class="buy-window-shopping-cart-product-img">
+        <img src="./img/product-in-buy-window.png" alt="">
+      </div>
+      <div class="info-product-in-buy-window">
+        <div class="name-product-in-buy-window"><b>Elari KidPhone 3G Red</b><br>Детские 3G часы-телефон голосовым помощником Алисой от...</div>
+        <span class="price-product-in-buy-window">6 990 ₽</span>
+      </div>
+    </div>
+    <div class="buy-window-btns">
+      <a href="#" class="light-btn_dark-text continue-shopping" title="">Продолжить покупки</a>
+      <a href="#" class="red_btn" title="">Перейти в корзину</a>
+    </div>
+    <hr class="dop-products">
+    <div class="dop-products-block">
+      <div class="dop-products-text">С этим товаром так же покупают:</div>
+      <div class="dop-products">
+        <div class="dop-product-item">
+          <img src="./img/elari-glass.png" alt="">
+          <div class="name"><b>Защитное стекло</b> для ELARI KidPhone 3G</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/SmartBeat_32_crop.png" alt="">
+          <div class="name"><b>Elari SmartBeat Black</b>Беспроводная умная колонка с Алисой от Ян...</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/SmartSocket_LOGO_frontside_merge_rgb_m.png" alt="">
+          <div class="name"><b>Elari SmartSocket</b>Умная розетка c голосовым управлением</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+        <div class="dop-product-item">
+          <img src="./img/1080x1080px_EarDrops_black 1_without_background.png" alt="">
+          <div class="name"><b>Elari EarDrops Black</b> Беспроводные наушники с магнитным зарядным кей...</div>
+          <div class="price">6 990 ₽</div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="account-block">
+    <div class="out-account-block-links">
+      <ul class="out-account-block-links">
+        <li class="login"><span class="login-in">Войти</span></li>
+        <li class="registration"><span class="create-an-account">Регистрация</span></li>
+      </ul>
+    </div>
+    <div class="info-user">
+      <div class="img-user"><img src="./img/medium-user-profil-icon.jpg" alt=""></div>
+      <div class="contacts-user">
+        <div class="name-user">Алексей Александров</div>
+        <div class="mail-user">alexandrov@elari.net</div>
+      </div>
+      <hr>
+      <ul class="in-account-block-links">
+        <li class="orders"><a href="#" title="">Заказы</a></li>
+        <li class="settings"><a href="#" title="">Настройки</a></li>
+        <li class="exit"><a href="#" title="">Выйти</a></li>
+      </ul>
+    </div>
+  </div>
+
+ <div class="container-fluid header-block fixed-top">
+    <div class="row">
+      <div class="col-12">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar">
+            <div class="header">
+              <div class="menu-icon" data-behaviour="toggle-menu-icon">
+                <span class="menu-icon__bar">
+              </div>
+            </div>
+            <nav class="nav" data-element="toggle-nav">
+              <ul class="nav__list">
+                <li class="nav__item catalog_header">
+                  Каталог товаров:
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/smart-chasy/">Часы</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/bluetooth-kolonki/">Колонки</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/bluetooth-naushniki/">Наушники</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link"href="https://store.elari.net/smart-wifi/">Роутер</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="https://store.elari.net/catalog/smart-house/">Умный дом</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link nav__link--plus more_link" data-behaviour="toggle-link-icon" href="#">Еще</a>
+                  <ul class="nav__sub-list" data-behaviour="toggle-sub-menu">
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 1</a>
+                    </li>
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 2</a>
+                    </li>
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Категория 3</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="dop_links">
+                <li><a class="nav_dop_link" href="#">Новости</a></li>
+                <li><a class="nav_dop_link" href="#">Поддержка</a></li>
+                <li><a class="nav_dop_link" href="#">Партнёрам</a></li>
+              </ul>
+              <div class="info">
+                <a href="tel:+78005005600">+7 800 500 56 00</a> / <a href="tel:+74951205600">+7 495 120 56 00</a><br>
+                Москва, Проспект Вернадского, д. 29, офис 1/29<br>
+                Режим работы офиса: пн-пт с 9.30 до 19.00.
+              </div>
+              <div class="social">
+                <a class="soc_border" href="https://www.facebook.com/ElariRus" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://vk.com/elari" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://www.instagram.com/elari_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="soc_border" href="https://www.youtube.com/channel/UC2x-ItXNANNiFUJkPvutV_w" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              </div>
+            </nav>
+            <a class="navbar-brand" href="https://store.elari.net/"><img src="img/logo.svg" alt="Logo ELARI" class="logo"/></a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav navbar-nav-category">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://store.elari.net/catalog/smart-chasy/">Часы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/bluetooth-kolonki/">Колонки</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/bluetooth-naushniki/">Наушники</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/smart-wifi/">Роутер</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://store.elari.net/catalog/smart-house/">Умный дом</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-exp anded="false">Ещё</a>
+                    <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="dropdown-menu-container">
+                        <a class="dropdown-item" href="#">Категория 1</a>
+                        <a class="dropdown-item" href="#">Категория 2</a>
+                        <a class="dropdown-item" href="#">Категория 3</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="nav-links-right">
+              <form action="" method="get" class="search">
+                <i class="fa fa-search fa-search_mobile"></i>
+                <input name="search" placeholder="Что вы ищете?" type="search" class="input_search search_mobile" autocomplete="off">
+              </form>
+              <a class="nav-link nav-link-right" href="#">Поддержка</a>
+              <a class="nav-link nav-link-right" href="#">Партнёрам</a>
+            </div>
+            <div class="header-items">
+                <div class="cart-icon"><span class="amount-cart-icon">2</span></div>
+                <div class="user-icon"></div><span class="user-profil-icon"></span>
+            </div>
+        </header>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid desktop">
+    <div class="row">
+      <div class="col-12 owl-carousel owl-carousel-slider owl-theme">
+        <a class="" href="#" title=""><img src="img/wifi_d.png" class="" alt="" /></a>
+        <a class="" href="#" title=""><img src="img/slide1_eardrops.jpg" class="" alt="" /></a>
+        <a class="" href="#" title=""><img src="img/slide1_eardrops.jpg" class="" alt="" /></a>
+        <a class="" href="#" title=""><img src="img/slide1_eardrops.jpg" class="" alt="" /></a>
+      </div>
+      <div class="container-fluid slider_block">
+        <div class="slider" id="slider">
+          <div class="slider_product_prev"></div>
+          <div class="slider_product_next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid pad">
+    <div class="row">
+      <div class="col-12 owl-carousel owl-carousel-slider owl-theme">
+        <a class="" href="#" title=""><img src="img/wifi_m.png" class="" alt="" /></a>
+        <a class="" href="#" title=""><img src="img/slide1_eardrops_pad.jpg" class="" alt="" /></a>
+        <a class="" href="#" title=""><img src="img/slide1_eardrops_pad.jpg" class="" alt="" /></a>
+        <a class="" href="#" title=""><img src="img/slide1_eardrops_pad.jpg" class="" alt="" /></a>
+      </div>
+    </div>
+  </div>
+  <h1></h1>
+<div class="glider-contain">
+  <div class="glider">
+        <div>
+          <a href="https://store.elari.net/smartbeat/" title="Elari SmartBeat" target="_blank">
+            <img src="./img/SmartBeat.jpg" alt="Elari SmartBeat" class="SmartBeat_slider_item">
+            <figcaption>SmartBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods-sport/" target="_blank">
+            <img src="./img/NanoPods_Sport.png" alt="Elari NanoPods Sport" class="NanoPods_Sport_slider_item">
+            <figcaption>NanoPods Sport</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/tovary-dlya-detey/elari-kidphone-3g-red/" target="_blank">
+            <img src="./img/KidPhone3G.png" alt="Elari KidPhone3G" class="KidPhone3G_slider_item">
+            <figcaption>KidPhone 3G</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/SmartWiFi.png" alt="Elari SmartWiFi" class="SmartWiFi_slider_item">
+            <figcaption>SmartWiFi</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/zaryadnye-ustroystva/smartsocket/" target="_blank">
+            <img src="./img/SmartSocket.png" alt="Elari Smart Socket" class="SmartSocket_slider_item">
+            <figcaption>Smart Socket</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/NanoBeat.png" alt="Elari NanoBeat" class="NanoBeat_slider_item">
+            <figcaption>NanoBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/smartbeat/" target="_blank">
+            <img src="./img/SmartBeat.jpg" alt="Elari SmartBeat" class="SmartBeat_slider_item old">
+            <figcaption>SmartBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods-sport/" target="_blank">
+            <img src="./img/NanoPods_Sport.png" alt="Elari NanoPods Sport" class="NanoPods_Sport_slider_item">
+            <figcaption>NanoPods Sport</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/tovary-dlya-detey/elari-kidphone-3g-red/" target="_blank">
+            <img src="./img/KidPhone3G.png" alt="Elari KidPhone3G" class="KidPhone3G_slider_item">
+            <figcaption>KidPhone 3G</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/SmartWiFi.png" alt="Elari SmartWiFi" class="SmartWiFi_slider_item">
+            <figcaption>SmartWiFi</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/zaryadnye-ustroystva/smartsocket/" target="_blank">
+            <img src="./img/SmartSocket.png" alt="Elari Smart Socket" class="SmartSocket_slider_item">
+            <figcaption>Smart Socket</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/NanoBeat.png" alt="Elari NanoBeat" class="NanoBeat_slider_item">
+            <figcaption>NanoBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods/" target="_blank">
+            <img src="./img/NanoPods.png" alt="Elari NanoPods" class="NanoPods_slider_item">
+            <figcaption>NanoPods</figcaption>
+          </a>
+        </div>
+       <div>
+          <a href="https://store.elari.net/smartbeat/" target="_blank">
+            <img src="./img/SmartBeat.jpg" alt="Elari SmartBeat" class="SmartBeat_slider_item old">
+            <figcaption>SmartBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods-sport/" target="_blank">
+            <img src="./img/NanoPods_Sport.png" alt="Elari NanoPods Sport" class="NanoPods_Sport_slider_item">
+            <figcaption>NanoPods Sport</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/tovary-dlya-detey/elari-kidphone-3g-red/" target="_blank">
+            <img src="./img/KidPhone3G.png" alt="Elari KidPhone3G" class="KidPhone3G_slider_item">
+            <figcaption>KidPhone 3G</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/SmartWiFi.png" alt="Elari SmartWiFi" class="SmartWiFi_slider_item">
+            <figcaption>SmartWiFi</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/zaryadnye-ustroystva/smartsocket/" target="_blank">
+            <img src="./img/SmartSocket.png" alt="Elari Smart Socket" class="SmartSocket_slider_item">
+            <figcaption>Smart Socket</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/NanoBeat.png" alt="Elari NanoBeat" class="NanoBeat_slider_item">
+            <figcaption>NanoBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods/" target="_blank">
+            <img src="./img/NanoPods.png" alt="Elari NanoPods" class="NanoPods_slider_item">
+            <figcaption>NanoPods</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/smartbeat/" target="_blank">
+            <img src="./img/SmartBeat.jpg" alt="Elari SmartBeat" class="SmartBeat_slider_item">
+            <figcaption>SmartBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods-sport/" target="_blank">
+            <img src="./img/NanoPods_Sport.png" alt="Elari NanoPods Sport" class="NanoPods_Sport_slider_item">
+            <figcaption>NanoPods Sport</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/tovary-dlya-detey/elari-kidphone-3g-red/" target="_blank">
+            <img src="./img/KidPhone3G.png" alt="Elari KidPhone3G" class="KidPhone3G_slider_item">
+            <figcaption>KidPhone 3G</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/SmartWiFi.png" alt="Elari SmartWiFi" class="SmartWiFi_slider_item">
+            <figcaption>SmartWiFi</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/zaryadnye-ustroystva/smartsocket/" target="_blank">
+            <img src="./img/SmartSocket.png" alt="Elari Smart Socket" class="SmartSocket_slider_item">
+            <figcaption>Smart Socket</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/NanoBeat.png" alt="Elari NanoBeat" class="NanoBeat_slider_item">
+            <figcaption>NanoBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/smartbeat/" target="_blank">
+            <img src="./img/SmartBeat.jpg" alt="Elari SmartBeat" class="SmartBeat_slider_item old">
+            <figcaption>SmartBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods-sport/" target="_blank">
+            <img src="./img/NanoPods_Sport.png" alt="Elari NanoPods Sport" class="NanoPods_Sport_slider_item">
+            <figcaption>NanoPods Sport</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/tovary-dlya-detey/elari-kidphone-3g-red/" target="_blank">
+            <img src="./img/KidPhone3G.png" alt="Elari KidPhone3G" class="KidPhone3G_slider_item">
+            <figcaption>KidPhone 3G</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/SmartWiFi.png" alt="Elari SmartWiFi" class="SmartWiFi_slider_item">
+            <figcaption>SmartWiFi</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/zaryadnye-ustroystva/smartsocket/" target="_blank">
+            <img src="./img/SmartSocket.png" alt="Elari Smart Socket" class="SmartSocket_slider_item">
+            <figcaption>Smart Socket</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/NanoBeat.png" alt="Elari NanoBeat" class="NanoBeat_slider_item">
+            <figcaption>NanoBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods/" target="_blank">
+            <img src="./img/NanoPods.png" alt="Elari NanoPods" class="NanoPods_slider_item">
+            <figcaption>NanoPods</figcaption>
+          </a>
+        </div>
+       <div>
+          <a href="https://store.elari.net/smartbeat/" target="_blank">
+            <img src="./img/SmartBeat.jpg" alt="Elari SmartBeat" class="SmartBeat_slider_item old">
+            <figcaption>SmartBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods-sport/" target="_blank">
+            <img src="./img/NanoPods_Sport.png" alt="Elari NanoPods Sport" class="NanoPods_Sport_slider_item">
+            <figcaption>NanoPods Sport</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/tovary-dlya-detey/elari-kidphone-3g-red/" target="_blank">
+            <img src="./img/KidPhone3G.png" alt="Elari KidPhone3G" class="KidPhone3G_slider_item">
+            <figcaption>KidPhone 3G</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/SmartWiFi.png" alt="Elari SmartWiFi" class="SmartWiFi_slider_item">
+            <figcaption>SmartWiFi</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://store.elari.net/catalog/zaryadnye-ustroystva/smartsocket/" target="_blank">
+            <img src="./img/SmartSocket.png" alt="Elari Smart Socket" class="SmartSocket_slider_item">
+            <figcaption>Smart Socket</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanobeat/" target="_blank">
+            <img src="./img/NanoBeat.png" alt="Elari NanoBeat" class="NanoBeat_slider_item">
+            <figcaption>NanoBeat</figcaption>
+          </a>
+        </div>
+        <div>
+          <a href="https://elari.net/product/nanopods/" target="_blank">
+            <img src="./img/NanoPods.png" alt="Elari NanoPods" class="NanoPods_slider_item">
+            <figcaption>NanoPods</figcaption>
+          </a>
+        </div>
+    </div>
+    <button role="button" aria-label="Previous" class="glider-prev"></button>
+    <button role="button" aria-label="Next" class="glider-next"></button>
+  </div>
+
+<div class="product-item-container">
+<div class="container-fluid product mainpage-banner banner_kidphone-4g-video video-wrapper banner_video_right">
+  <div class="row">
+    <video class="video ap fadeIn wow" autoplay="" muted="muted">
+      <source src="ed43573be49ea416da56b30ee186ca8c.mp4" type="video/mp4">
+    </video>        
+    <div class="col-12 col-lg-6 video-text">
+      <h2 class="wow fadeInUp white_color">KidPhone 4G</h2>
+      <div class="descreption fadeInUp wow white_color">
+        Наши новые детские влагозащищенные 4G часы-телефон с MP3-плеером, Алисой от Яндекса и видео-звонками                
+      </div>
+      <div class="btns fadeInUp wow light-btns">
+        <span class="buy-btn"><a class="buy" href="#" onclick="Add2BasketExt(492);"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span>
+        <a class="more" href="/catalog/smart-watch/kidphone-4g/">Подробнее<i class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6"></div>        
+  </div>
+  <style>
+    .banner_kidphone-4g-video {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: #7551bf;
+    }
+    </style>
+</div>
+</div>
+
+<div class="product-item-container">
+  <div class="container-fluid product mainpage-banner banner_eardrops-video video-wrapper banner_video_right" style="background: #010001;">
+      <div class="row">
+      <video class="video ap fadeIn wow" data-wow-duration=".5s" data-wow-delay=".1s"  autoplay="" muted="muted">
+        <source src="EarDrops_site.mp4" type="video/mp4">
+      </video>
+        <div class="col-12 col-lg-6 video-text">
+          <h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s"><span style="color: #fff;">ELARI EarDrops</span></h2>
+          <div class="descreption fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s">
+            Умная и универсальная медиа система, в основе которой лежит мощная и при этом компактная портативная Bluetooth-колонка с интегрированной Алисой от Яндекс
+          </div>
+          <div class="btns light-btns fadeInUp wow" data-wow-duration=".6s" data-wow-delay="2s">
+            <span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span>
+            <a class="more" href="#">Подробнее<i class="fa fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+        </div>
+      </div>
+      <div class="btns-plus">
+          <img src="./img/Alice.png" alt="Alice" class="Alice">
+          <img src="./img/plus.png" alt="Yandex Plus" class="YandexPlus">
+      </div>
+    </div>
+</div>
+  <div class="container-fluid product mainpage-banner banner_kidphone-3g-video video-wrapper banner_video_left" style="background: #b146eb;">
+      <div class="row">
+        <video class="video ap fadeIn wow" data-wow-duration=".5s" data-wow-delay=".1s" muted>
+          <source src="KidPhone3G_site.mp4" type="video/mp4">
+        </video>
+        <div class="col-12 col-lg-6"></div>
+        <div class="col-12 col-lg-6 video-text">
+          <h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s"><span style="color: #fff;">ELARI KidPhone 3G</span></h2>
+          <div class="descreption fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s">
+            Первые в мире детские 3G часы-телефон с поддержкой видеозвонков и голосового помощника Алиса от Яндекса!
+          </div>
+          <div class="btns light-btns fadeInUp wow" data-wow-duration=".6s" data-wow-delay="2s">
+            <span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span>
+            <a class="more" href="#">Подробнее<i class="fa fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="btns-plus">
+        <img src="./img/Alice.png" alt="Alice" class="Alice">
+        <img src="./img/plus.png" alt="Yandex Plus" class="YandexPlus">
+      </div>
+    </div>
+
+    <div class="container-fluid product mainpage-banner banner_smartbeat-video video-wrapper banner_video_right">
+      <div class="row">
+      <video class="video ap fadeIn wow" data-wow-duration=".5s" data-wow-delay=".1s" muted>
+        <source src="Smart_Beat_site.mp4" type="video/mp4">
+      </video>
+        <div class="col-12 col-lg-6 SmartBeat_col video-text">
+          <h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="2s">ELARI SmartBeat</h2>
+          <div class="descreption fadeInUp wow base_color" data-wow-duration=".2s" data-wow-delay="2.5s">
+            Умная и универсальная медиа система, в основе которой лежит мощная и при этом компактная портативная Bluetooth-колонка с интегрированной Алисой от Яндекс
+          </div>
+          <div class="btns dark-btns fadeInUp wow" data-wow-duration=".2s" data-wow-delay="3s">
+            <span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span>
+            <a class="more" href="#">Подробнее<i class="fa fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+        </div>
+      </div>
+      <div class="btns-plus">
+          <img src="./img/Alice.png" alt="Alice" class="Alice">
+          <img src="./img/plus.png" alt="Yandex Plus" class="YandexPlus">
+      </div>
+    </div>
+
+    <div class="container-fluid product mainpage-banner Nanopods_Sport">
+      <div class="row">
+        <div class="col-12 col-lg-6"></div>
+        <div class="col-12 col-lg-6">
+          <h2>ELARI Nanopods Sport</h2>
+          <div class="descreption">
+            Благодаря защите от влаги и пыли по стандарту IP67, NanoPods Sport идеально подойдут всем, кто хочет оставаться на связи и наслаждаться любимой музыкой во время интенсивных занятий спортом, под сильным дождем и даже в бассейне
+          </div>
+          <div class="btns dark-btns">
+            <span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></a></span></span>
+            <a class="more" href="#">Подробнее<i class="fa fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid two_products">
+      <div class="row">
+        <div class="col-12 col-lg-6 half-product-left SmartWiFi">
+          <h2>ELARI SmartWiFi</h2>
+          <div class="btns dark-btns">
+            <span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></span></a></span>
+            <a class="more" href="/">Подробнее<i class="fa fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 half-product-right EarDrops">
+          <h2>ELARI EarDrops</h2>
+          <div class="btns light">
+            <a class="soon" href="/">Скоро в продаже<i class="fa fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid two_products">
+      <div class="row">
+        <div class="col-12 col-lg-6 half-product-left SafeFamily">
+          <h2>Elari SafeFamily</h2>
+          <div class="descreption">Универсальное приложение для линейки умных&nbsp;детских часов-телефонов Elari</div>
+          <div class="btns dark-btns">
+            <a class="more" href="#">Подробнее<i class="fa fa-chevron-right"></i></a>
+          </div>
+          <div class="link_app">
+            <a href="#"><img alt="" class="SafeFamilyApp" src="./img/SafeFamily_app.png"></a>
+            <a href="#"><img alt="Доступно в App Store" class="AppStore" src="./img/AppStore_black.svg"></a>
+            <a href="#"><img alt="Доступно в Google Play" class="GooglePlay" src="./img/GooglePlay.png"></a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 half-product-right SmartHome">
+           <img src="./img/SmartHome_logo.png" alt="Elari SmartHome" class="SmartHome_logo">
+          <h2>Elari SmartHome</h2>
+          <div class="descreption">Управляйте вашим умным домом с&nbsp;помощью одного приложения</div>
+          <div class="download_btns">
+            <a href="#"><img alt="Доступно в App Store" class="AppStore" src="./img/AppStore.svg"></a>
+            <a href="#"><img alt="Доступно в Google Play" class="GooglePlay" src="./img/GooglePlay.svg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid two_products">
+      <div class="row">
+
+        <div class="col-12 col-lg-6 half_index half_FixiTime3 half-product-left light_gray_bg">
+          <div class="half_index_info">
+            <h2>ELARI FixiTime 3</h2>
+            <div class="descreption base_color">Созданный специально для детей гаджет, сочетающий функционал умных часов, телефона и средства безопасности ребенка.</div>
+            <ul class="colors_prod"><li class="color_prod LightPink_prod"></li><li class="color_prod Black_prod"></li></ul>
+            <div class="btns dark-btns">
+              <span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></a></span></span>
+              <a class="more" href="#">Подробнее<i class="fa fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="half_index_img"></div>
+        </div>
+
+        <div class="col-12 col-lg-6 half_index half-product-right half_NanoPods_Sport dark_gray_bg">
+          <div class="half_index_info">
+            <h2 class="white_color">ELARI NanoPods Sport</h2>
+            <div class="descreption white_color">Проверенная временем классика - наши беспроводные Hi-Fi стерео наушники.</div>
+            <ul class="colors_prod"><li class="color_prod LightPink_prod"></li><li class="color_prod Black_prod"></li></ul>
+            <div class="btns light-btns">
+              <span class="buy-btn"><a class="buy" href="#"><span>Купить<i class="fa fa-shopping-cart"></i></a></span></span>
+              <a class="more" href="#">Подробнее<i class="fa fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="half_index_img"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid two_products">
+      <div class="row">
+
+        <div class="col-12 col-lg-6 half_index half_SmartHome full_bg_half half-product-left">
+          <div class="half_index_info">
+            <h2 class="white_color">ELARI SmartHome</h2>
+            <div class="descreption white_color">Ваш дом должен стать умнее! Управляйте им дистанционно через мобильное приложение или голосом через Алису от Яндекса</div>
+            <div class="btns light-btns">
+            <a class="more" href="#">Подробнее<i class="fa fa-chevron-right"></i></a>
+          </div>
+          </div>
+          <div class="half_index_img"></div>
+        </div>
+
+        <div class="col-12 col-lg-6 half_index half-product-right full_bg_half half_KidPhone4GR dark_gray_bg">
+          <div class="half_index_info">
+            <h2>ELARI KidPhone 4G R</h2>
+            <div class="descreption base_color">Взгляните на детские смарт-часы KidPhone по новому! Ещё более умные, ещё более быстрые и технологичные</div>
+            <div class="btns dark-btns">
+            <a class="more" href="#">Скоро в продаже<i class="fa fa-chevron-right"></i></a>
+          </div>
+          </div>
+          <div class="half_index_img"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="container-fluid owl-carousel owl-carousel-blog owl-theme">
+      <div class="blog item">
+        <div class="img_block"><img src="./img/blog_img_1.jpg" alt="" class="blog_img_1">
+          <div class="after fadeIn"><a class="more" href="/">Подробнее</a></div>
+        </div>
+        <div class="tag">#Events</div>
+        <div class="title">Geek Picnic зовёт, Фиксики — вперёд!</div>
+      </div>
+      <div class="blog item">
+        <div class="img_block"><img src="./img/blog_img_2.jpg" alt="" class="blog_img_2">
+          <div class="after fadeIn"><a class="more" href="/">Подробнее</a></div>
+        </div>
+        <div class="tag">#Events</div>
+        <div class="title">Geek Picnic зовёт, Фиксики — вперёд!</div>
+      </div>
+      <div class="blog item">
+        <div class="img_block"><img src="./img/blog_img_3.jpg" alt="" class="blog_img_3">
+          <div class="after fadeIn"><a class="more" href="/">Подробнее</a></div>
+        </div>
+        <div class="tag">#Events</div>
+        <div class="title">Geek Picnic зовёт, Фиксики — вперёд!</div>
+      </div>
+      <div class="blog item">
+        <div class="img_block"><img src="./img/blog_img_1.jpg" alt="" class="blog_img_1">
+          <div class="after fadeIn"><a class="more" href="/">Подробнее</a></div>
+        </div>
+        <div class="tag">#Events</div>
+        <div class="title">Geek Picnic зовёт, Фиксики — вперёд!</div>
+      </div>
+      <div class="blog item">
+        <div class="img_block"><img src="./img/blog_img_2.jpg" alt="" class="blog_img_2">
+          <div class="after fadeIn"><a class="more" href="/">Подробнее</a></div>
+        </div>
+        <div class="tag">#Events</div>
+        <div class="title">Geek Picnic зовёт, Фиксики — вперёд!</div>
+      </div>
+      <div class="blog item">
+        <div class="img_block"><img src="./img/blog_img_3.jpg" alt="" class="blog_img_3">
+          <div class="after fadeIn"><a class="more" href="/">Подробнее</a></div>
+        </div>
+        <div class="tag">#Events</div>
+        <div class="title">Geek Picnic зовёт, Фиксики — вперёд!</div>
+      </div>
+    </div>
+
+    <div class="container-fluid spring_sale">
+      <a class="more" href="/">Подробнее<i class="fa fa-chevron-right"></i></a>
+    </div>
+    
+
+    <div class="container-fluid get_sale_block">
+      <div class="row">
+        <div class="col-12 col-md-7 col-lg-7 col-xl-6  get_sale_info">
+          <h2>ХОТИТЕ ЕЩЁ СКИДКУ?</h2>
+          <div class="descreption">Сэкономьте 10% на первом заказе в Elari Store и узнавайте первыми об акциях и спецпредложениях</div>
+          <div class="form">
+            <input class="get_sale" type="" name="" placeholder="Введите ваш email адрес">
+            <button class="get_sale">ПОЛУЧИТЬ СКИДКУ</button>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheckSale" checked>
+              <label class="custom-control-label" for="customCheckSale">Я согласен на обработку персональных данных</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-lg-5 col-xl-6 get_sale_bg">
+        </div>
+      </div>
+    </div>
+
+
+  <div class="container-fluid">
+    <div class="footer row">
+        <div class="col-12 mobile_logo_bottom"><a href="https://store.elari.net/" title=""><img src="./img/logo_bottom.svg" alt="Elari" class="img_mobile_logo_bottom"></a></div>
+        <div class="col-12 col-sm-8 info-block-footer">
+          <div class="logo_bottom"><a href="https://store.elari.net/" title=""><img src="./img/logo_bottom.svg" alt="Elari" class="logo_bottom"></a></div>
+          <div class="info">
+            <hr>
+            <a href="tel:+78005005600">+7 800 500 56 00</a> / <a href="tel:+74951205600">+7 495 120 56 00</a><br>
+            Москва, Проспект Вернадского, д. 29, офис 1/29<br>
+            Режим работы офиса: пн-пт с 9.30 до 19.00.
+          </div>
+          <div class="social">
+            <a class="soc_border" href="https://www.facebook.com/ElariRus" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://vk.com/elari" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://www.instagram.com/elari_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="soc_border" href="https://www.youtube.com/channel/UC2x-ItXNANNiFUJkPvutV_w" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 footer-menu align-self-end">
+          <a href="https://elari.net/about-elari/" title="О компании Elari">О компании</a>
+          <a href="https://store.elari.net/contacts/" title="Контактная информация">Контакты</a>
+          <a href="https://store.elari.net/conditions/" title="Условия продажи">Условия продажи</a>
+          <a href="https://store.elari.net/catalog/sale/" title="Акции">Акции</a>
+        </div>
+        <div class="col-6  col-sm-1 footer-menu align-self-end">
+          <a href="https://store.elari.net/conditions/" title="Гарантия">Гарантия</a>
+          <a href="https://store.elari.net/conditions/" title="Доставка">Доставка</a>
+          <a href="https://store.elari.net/news/" title="Новости">Новости</a>
+          <a href="https://elari.net/partners/" title="Партнерам">Партнерам</a>
+        </div>
+    </div>
+  </div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/script.js" type="text/javascript" async defer></script>
+</body>
+</html>
