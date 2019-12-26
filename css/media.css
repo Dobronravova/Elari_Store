@@ -3528,6 +3528,10 @@
 	    max-height: 50px;
 	    width: auto;
 	}
+	.EarDrops_cols {
+	    font-size: 13px;
+	    line-height: 15px;
+	}
 }
 
 @media screen and (max-width:  460px) {
@@ -3593,6 +3597,14 @@
 	}
 	.bx-sls .dropdown-block {
 	    width: 100%;
+	}
+	.EarDrops_third .EarDrops_cols .big_font {
+	    font-size: 62px;
+	    line-height: 50px;
+	}
+	.EarDrops_cols {
+	    font-size: 12px;
+	    line-height: 15px;
 	}
 }
 
@@ -3893,6 +3905,26 @@
 	.tile_item_nps-sport .half_index_img{
 		background-position: top;
 	}
+	.EarDrops_third .EarDrops_cols .big_font {
+	    font-size: 11vw;
+	    line-height: 36px;
+	}
+	.EarDrops_third .EarDrops_col {
+	    -ms-flex-preferred-size: auto;
+	    flex-basis: auto;
+	}
+	.EarDrops_third .EarDrops_col img.Bluetooth5 {
+	    max-width: 24%;
+	}
+	.EarDrops_third .EarDrops_col div:first-child{
+		padding-top: 5px;
+	}
+	.EarDrops_third .EarDrops_col img {
+	    max-width: 47%;
+	}
+	.EarDrops_third .EarDrops_col img {
+	    max-width: 53%;
+	}
 }
 
 @media screen and (max-width:  380px) {
@@ -4037,6 +4069,9 @@
 	.EarDrops_first .inside_header {
 	    font-size: 37px;
 	}
+	.EarDrops_third .EarDrops_cols {
+	    width: 100%;
+	}
 }
 
 @media screen and (max-width:  360px) {
@@ -4077,7 +4112,10 @@
 	.inside_features .item {
 	    min-height: 185px;
 	}
-
+	.EarDrops_cols {
+	    font-size: 11px;
+	    line-height: 14px;
+	}
 }
 
 @media screen and (max-width:  355px) {
