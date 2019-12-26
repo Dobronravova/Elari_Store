@@ -5372,6 +5372,7 @@ ul.list__ul li:first-child::after {
 	margin-bottom: 0;
 	-ms-flex-preferred-size: 100%;
 	flex-basis: 100%;
+	color: #313131;
 }
 
 .prev-new-detals .prev-new-text{
@@ -7244,6 +7245,7 @@ img.EarDrops_seventh{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-family: Gilroy-SemiBold;
+	border-bottom: 0;
 }
 .nav-sales a span {
     background: linear-gradient(90deg, #EA32A0 -14.63%, #F97129 100%);
